@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                 sh "mvn package -f my-app"
+                 sh "mvn package -f my-appp"
             }
         }
     }
